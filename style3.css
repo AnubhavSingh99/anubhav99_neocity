@@ -1,0 +1,141 @@
+/**css-reset**/
+body {
+    background-image: url(Assests/background_3.jpg);
+    background-size: cover;
+    background-color: #FF003C;
+}
+
+.cyber-border {
+    --aug-border: 5px;
+    --aug-inset: 5px;
+    --aug-border-bg: #FF003C;
+    /**--aug-inset-bg: black;**/
+    display: inline-block;
+    padding: 10px;
+    /* mind the gap */
+    text-align: center;
+}
+
+.border {
+    --aug-border: 1px;
+}
+
+/**header**/
+
+header {
+    height: 115px;
+    margin-left: 30px;
+    width: 95%;
+    background-image: url(Assests/header_3.gif);
+    background-size: cover;
+    background-size: 100%;
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+/**nav bar**/
+
+div.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-left: 30px;
+    width: 95%;
+    margin-top: 1%;
+    --aug-inset-bg: black;
+}
+
+.nav-text {
+    display: inline;
+    color: #FF003C;
+    font-family: Chakra Petch;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-text:hover {
+    display: inline;
+    color: white;
+    font-family: Chakra Petch;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/**hero-section**/
+
+.hero-section {
+    display: flex;
+    margin-top: 1%;
+    height: max-content;
+    margin-left: 30px;
+    width: 95%;
+}
+
+div.about {
+    --aug-inset-bg: black;
+    color: white;
+    height: max-content;
+    margin-left: 30px;
+    width: 95%;
+}
+
+div.scroll{
+    height: 85%;
+    width: 100%;
+    overflow: scroll;
+}
+
+p{
+    color: white;
+    font-family: Chakra Petch;
+}
+
+h1{
+    text-align: left;
+    color: white;
+    font-family: Chakra Petch;
+}
+
+.potfolio{
+    height: 85%;
+    width: 100%;
+    overflow: scroll;
+}
+
+/**projects**/
+
+.projects_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-box{
+    font-family: Chakra Petch;
+    color: #FF003C;
+    font-size: large;
+    height: 230px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #FF003C;
+}
+
+.project-box a{
+    text-decoration: none;
+    color: #FF003C;
+}
+
+.other-projects{
+    display: flex;
+    text-decoration: none;
+    color: #FF003C;
+    font-family: Chakra Petch;
+    font-size: large;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
