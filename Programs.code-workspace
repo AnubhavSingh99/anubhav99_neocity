@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Programs"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../My_Sites"
+		},
+		{
+			"path": "../../CodSoft"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CodSoft"
+	}
+}
